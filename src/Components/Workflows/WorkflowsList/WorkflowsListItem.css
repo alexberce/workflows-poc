@@ -1,0 +1,28 @@
+.workflow-item {
+    width: 100%;
+    padding: 20px;
+    background: #FFF;
+    border: 1px solid #ddd;
+    border-bottom-width: 0;
+    cursor: pointer;
+}
+
+.workflow-item:last-child {
+    border-bottom-width: 1px;
+}
+
+.workflow-item-selector {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    padding: 0;
+    margin: 2px 0 0;
+    background: #FFF;
+
+}
+
+.workflow-item-name {
+    line-height: 25px;
+    margin-left: 30px;
+}

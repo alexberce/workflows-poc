@@ -1,0 +1,28 @@
+.workflow-component-buttons {
+    background-color: #fafafa;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.workflow-component-button {
+    flex: 1;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #4c4c4c;
+}
+
+.workflow-component-button > div {
+    padding: 10px;
+}
+
+.workflow-component-button-cancel,
+.workflow-component-button-delete {
+    border-right: 1px solid #ececec;
+}

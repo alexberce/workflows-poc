@@ -1,0 +1,12 @@
+.empty-state-wrapper {
+    background: #fff;
+    text-align: center;
+    padding: 40px;
+}
+
+.empty-state-text {
+    margin-top: 20px;
+    font-weight: normal;
+    color: #4c4c4c;
+    font-size: 24px;
+}

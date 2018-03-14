@@ -1,0 +1,66 @@
+.login-component {
+    width: 612px;
+    margin: auto;
+    padding: 20px;
+
+    position: relative;
+    top: 50%;
+    transform: perspective(1px) translateY(-50%);
+}
+
+.login-form {
+    padding: 40px;
+    border: 1px dashed #068ff6;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    background: rgba(0,0,0,.6);
+}
+
+.login-form button,
+.login-form input {
+    color: #fff;
+    padding: 10px;
+    margin-right: 10px;
+    background: transparent;
+    border: 1px solid #068ff6;
+    border-radius: 3px;
+    width: 200px;
+}
+
+.login-form button {
+    background: #068ff6;
+    margin-right: 0;
+    width: 70px;
+    cursor: pointer;
+}
+
+.login-form input::placeholder {
+    color: #ccc;
+    font-style: italic;
+}
+
+.logo-wrapper {
+    min-height: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width: 650px){
+    .login-component {
+        width: auto;
+    }
+
+    .login-form button,
+    .login-form input {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .login-form input:first-child {
+        margin-top: 0;
+    }
+
+    .login-form button {
+        margin-bottom: 0;
+    }
+}

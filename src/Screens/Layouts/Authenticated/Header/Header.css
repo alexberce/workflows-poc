@@ -1,0 +1,49 @@
+.app-logo {
+    height: auto;
+    width: 88px;
+    float: left;
+}
+
+.app-header {
+    background-color: #FFF;
+    padding: 11px 20px;
+    border-bottom: 1px solid #d2d2d2;
+}
+
+.app-header::after {
+    content: ' ';
+    display: block;
+    clear: both;
+}
+
+.logout-button {
+    float: right;
+    border: 1px solid #ececec;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #9c9c9c;
+}
+
+.logout-button:hover {
+    float: right;
+    border: 1px solid #9c9c9c;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #4c4c4c;
+}
+
+@media screen and (max-width: 580px) {
+    .app-header {
+        padding: 11px 0;
+    }
+
+    .app-logo {
+        float: none;
+        margin-left: 10px;
+    }
+
+    .logout-button {
+        margin-right: 10px;
+    }
+}
